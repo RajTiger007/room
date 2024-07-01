@@ -1,14 +1,18 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
 import 'package:room_booking/utiliity/datetime_utility.dart';
 import 'package:room_booking/utiliity/screen.dart';
 import 'package:room_booking/widgets/dropdown.dart';
 
+
+
 void main() {
   initializeDateFormatting('pt_BR', '').then((_) => runApp(const MyApp()));
+}
+
+initializeDateFormatting(String s, String t) {
 }
 
 class MyApp extends StatefulWidget {
